@@ -234,7 +234,7 @@ fn execute<T: for<'de> serde::Deserialize<'de>>(
         }
         handle.username("api")?;
         handle.password(&password)?;
-        handle.useragent("rust-lang/rust membership update")?;
+        handle.useragent("intfirebuff/mailing list update")?;
         // handle.verbose(true)?;
         let mut result = Vec::new();
         let mut headers = Vec::new();
