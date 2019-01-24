@@ -8,10 +8,6 @@
 # Each mailing list has three keys:
 #
 #   * `address` - the email address of this mailing list (including the domain)
-#   * `access_level` - one of the following:
-#       * `readonly` - only authenticated users can post
-#       * `members` - only members can post to the list
-#       * `everyone` - anyone can post to the list
 #   * `members` - an array of email addresses to forward mail to
 #
 # All mailing lists behave the same way. When an email is received it then
@@ -20,7 +16,6 @@
 [[lists]]
 # Convention/Education Committee
 address = 'convention@ifba.org'
-access_level = 'everyone'
 members = [
   "kfbct58@aol.com",
   "fnovak53@yahoo.com",
@@ -37,7 +32,6 @@ members = [
 [[lists]]
 # All officers, committee chairs, past president, and turnout (excludes subcommittee chairs)
 address = 'execboard@ifba.org'
-access_level = 'everyone'
 members = [
   "steve.garnett@sympatico.ca",
   "schaetzp@msn.com",
@@ -62,7 +56,6 @@ members = [
 [[lists]]
 # Constitution & By-laws
 address = 'bylaws@ifba.org'
-access_level = 'everyone'
 members = [
   "ahrensfire@comcast.net",
   "bowersbsa117@gmail.com",
@@ -74,7 +67,6 @@ members = [
 [[lists]]
 # Fire Buff of the Year
 address = 'fboy@ifba.org'
-access_level = 'everyone'
 members = [
   "stuart.nathan@maryland.gov",
   "edmcm@yahoo.com",
@@ -83,7 +75,6 @@ members = [
 
 [[lists]]
 address = 'finance@ifba.org'
-access_level = 'everyone'
 members = [
   "firebfdw@mindspring.com",
   "skfick1@aol.com",
@@ -92,7 +83,6 @@ members = [
 
 [[lists]]
 address = 'historical@ifba.org'
-access_level = 'everyone'
 members = [
   "kbrummett@suddenlink.net",
   "w.mokros@gmail.com",
@@ -101,7 +91,6 @@ members = [
 
 [[lists]]
 address = 'insurance@ifba.org'
-access_level = 'everyone'
 members = [
   "schaetzp@msn.com",
   "firebfdw@mindspring.com",
@@ -111,7 +100,6 @@ members = [
 [[lists]]
 # Information Technology
 address = 'it@ifba.org'
-access_level = 'everyone'
 members = [
   "thomas.bilbrey@box55.org",
   "cdaniels@signal51.com",
@@ -123,7 +111,6 @@ members = [
 [[lists]]
 # Recruitment & Retention
 address = 'join@ifba.org'
-access_level = 'everyone'
 members = [
   "joewho4@aol.com",
   "424-896wgb@verizon.net",
@@ -135,7 +122,6 @@ members = [
 [[lists]]
 # Fire & Life Safety
 address = 'lifesafety@ifba.org'
-access_level = 'everyone'
 members = [
   "firegerry@me.com",
   "firebfdw@mindspring.com",
@@ -145,7 +131,6 @@ members = [
 [[lists]]
 # Past Presidents
 address = 'pastpresidents@ifba.org'
-access_level = 'everyone'
 members = [
   "v.mokros@gmail.com",
   "tmcfire@aol.com",
@@ -158,7 +143,6 @@ members = [
 [[lists]]
 # CFSI / Publicity Chair
 address = 'publicity@ifba.org'
-access_level = 'everyone'
 members = [
   "stuart.nathan@maryland.gov",
   "maggiolv@gmail.com",
@@ -167,7 +151,6 @@ members = [
 [[lists]]
 # All regional vice presidents
 address = 'regionalvps@ifba.org'
-access_level = 'everyone'
 members = [
   "firebfdw@mindspring.com",
   "fnovak53@yahoo.com",
@@ -184,7 +167,6 @@ members = [
 [[lists]]
 # Resource Committee
 address = 'resource@ifba.org'
-access_level = 'everyone'
 members = [
   "mrihcohen@aol.com",
   "vaughn97@hotmail.com",
